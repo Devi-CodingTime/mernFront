@@ -51,7 +51,7 @@ const Dashboard = () => {
         }
         // local link : http://localhost:5000/productList
         
-          const res = await fetch(`https://mernback-ck6b.onrender.com?${queryParams}`, {
+          const res = await fetch(`https://mernback-ck6b.onrender.com/?${queryParams}`, {
             method: "GET",
           });
           const data = await res.json();
